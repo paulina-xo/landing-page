@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+/*-------------------- CONTAINER --------------------*/
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.mainleft, .mainright {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainmiddle {
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    gap: 16px;
+    width: 100%;
+}
+
+/*-------------------- HEADER --------------------*/
+
+#header, #header a {
+    background-color: #1f2937;
+    color: white;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    margin: 0 18px;
+    font-size: 18px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*-------------------- SECOND PART --------------------*/
+
+#second {
+    background-color: #1f2937;
+    padding: 55px 0;
+}
+
+.awesome {
+    flex: 1;
+    align-self: flex-start;
+    color: white;
+    padding-right: 80px;
+}
+
+.awesome h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.awesome p {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.awesome button {
+    padding: 10px 25px;
+    margin: 15px 0;
+    background-color: #3882f6;
+    color: white;
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+}
+
+.image {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.image img {
+    width: 100%;
+    display: block;
+}
+
+/*-------------------- THIRD PART --------------------*/
+
+#third {
+    padding: 55px 0;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.gallery {
+    display: flex;
+    width: 85%;
+    gap: 40px;
+    margin: 30px;
+}
+
+.card {
+    flex-direction: column;
+    padding: 10px;
+    display: flex;
+    flex: 1;
+}
+
+.card img {
+    width: 100%;
+    border: 3px solid;
+    border-radius: 20px;
+}
+
+.card p {
+    margin: 10px;
+}
+
+#third .mainmiddle {
+    flex-direction: column;
+}
+
+/*-------------------- FOURTH PART --------------------*/
+
+#fourth {
+    background-color: #e5e7eb;
+    padding: 50px 0;
+}
+
+.quote {
+    width: 85%;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    color: #1f2937;
+    flex-direction: column;
+}
+
+.author {
+    margin-top: 20px;
+    padding-right: 55px;
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*-------------------- FIFTH PART --------------------*/
+
+#fifth {
+    padding: 50px 0;
+}
+
+.callout {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 30px 100px;
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    color: white;
+}
+
+.call {
+    flex: 3;
+    padding: 16px;
+}
+
+.sign {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign button {
+    padding: 5px 25px;
+    margin: 15px 0;
+    background-color: #3882f6;
+    color: white;
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+/*-------------------- FOOTER --------------------*/
+
+#footer {
+    background-color: #1f2937;
+    color: white;
+}
